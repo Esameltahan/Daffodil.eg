@@ -1,0 +1,184 @@
+body {
+    background-color: #F3EDEF;
+}
+
+/* Navbar */
+
+#first-page {
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 1.2rem;
+    padding: 7% 15% 0;
+background-color: #894961;
+}
+
+.navbar {
+    padding: 7% 15%;
+    margin-bottom: 20%;
+}
+
+.navbar-nav {
+margin-left: auto;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.header {
+    height: 400px;
+    margin-top: 20px;
+}
+
+.header-h {
+    position: relative;
+    right: 2%;
+    text-align: right;
+    font-size: 6rem;
+    color: #fff;
+   
+}
+
+.header-logo {
+    border-left: solid 1.5px;
+    border-color: aliceblue;
+}
+
+.logo {
+   
+    width: 127px;
+    position: relative;
+    z-index: 1;
+    top: 15%;
+    left: 5%;
+}
+
+.vline {
+
+    color: black;
+    line-height: 600;
+    position: relative;
+    right: 500px;
+}
+
+.second-page {
+    font-family: 'Aref Ruqaa', serif;
+    background-color: #F3EDEF;
+    padding: 10% 15%;
+}
+
+.quetes {
+    margin-top: 7%;
+}
+
+.first-row {
+    height: auto;
+    margin-top: 20%;
+    border-right: solid 1.5px;
+    border-color: #894961;
+    text-align: right;
+}
+
+.title1 {
+    font-size: 1.5rem;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: 2%;
+    color: #955B71;
+}
+.par1 {
+    margin-left: auto;
+    width: 300px;
+    color: black;
+}
+
+.second-row {
+    margin-top: 40%;
+    border-left: solid 1.5px;
+    border-color: #894961;
+    margin-left: auto;
+}
+
+.title2 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 2%;
+    color: #955B71;
+}
+
+.par2 {
+    margin-right: auto;
+width: 300px;
+height: 500px;
+color: black;
+    }
+
+#contact {
+    font-family: 'Aref Ruqaa', serif;
+    background-color: #955B71;
+    padding: 7% 15%;
+}
+
+.third-page {
+    margin: 10%;
+
+}
+
+.iconss {
+margin-left: auto;
+}
+
+.icon-contact {
+    width: 20px;
+    margin: 2%;
+}
+
+.contact-us {
+    border-color: #fff;
+    color: #fff;
+    margin-right: auto;
+}
+
+.title3 {
+    position: relative;
+    top: 22%;
+}
+
+@media (max-width:992px) {
+    .contact-us {
+        border-style: none;
+    }
+.header-logo {
+    border-style: none;
+}
+.first-row  {
+    border-style: none;
+}
+
+.second-row  {
+    border-style: none;
+}
+
+.contact-us  {
+    border-style: none;
+}
+
+.header-h {
+    text-align: center;
+}
+
+.first-row {
+    text-align: center;
+}
+.title2 {
+    text-align: center;
+}
+
+#first-page {
+    text-align: center;
+}
+
+.second-page {
+    text-align: center;
+}
+
+}
